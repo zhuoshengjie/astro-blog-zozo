@@ -1,0 +1,13 @@
+<svg width="96" height="98" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <polyline fill="none" points="81,117.5 81,117.5 " id="svg_1" stroke-linecap="round" stroke="#000"/>
+  <rect fill="none" x="96" y="170.5" width="126" height="0" id="svg_2" stroke="#000"/>
+  <line fill="none" x1="137" y1="227.5" x2="286" y2="116.5" id="svg_3" stroke="#000"/>
+  <path fill="none" stroke="#000" id="svg_4" d="m115,64.5c1,0 3,0 9,0c2,0 6,0 12,0c7,0 13,0 19,0c5,0 10.04132,-0.84723 14,-2c3.03616,-0.88413 6,-2 8,-3c2,-1 4,-3 6,-5c3,-3 5.513,-6.594 7,-9c1.66251,-2.68999 2,-4 4,-6c1,-1 2,-2 3,-2c1,0 1.02582,0.32037 3,0c3.12144,-0.50654 6,-1 10,-1c3,0 5,1 7,1c1,0 1.29289,0.29289 2,1c0.70711,0.70711 0,1 0,2c0,1 0,2 1,3c0,0 0,1 0,1c0,0 0,0 0,1c0,2 0,3 0,4c0,0 -1,0 -1,0l0,0"/>
+  <path id="svg_6" d="m151,416.5c22,71 130,52 130,53c0,1 113,-50 113,-50.5c0,0.5 -4,-64.5 -4,-65c0,0.5 98,-17.5 98,-18" opacity="NaN" stroke="#000" fill="#fff"/>
+  <text stroke-width="0" font-style="italic" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Piazzolla'" font-size="24" id="svg_7" y="37.24915" x="20.16694" stroke="#000" fill="#525252">zhuo</text>
+  <text transform="matrix(0.949719 0 0 1 -8.33016 0)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Quicksand'" font-size="24" id="svg_9" y="72.7488" x="16.44606" fill="#525252">fontEnd</text>
+ </g>
+
+</svg>
