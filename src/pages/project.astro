@@ -1,0 +1,107 @@
+---
+
+import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
+import earth from '~/assets/project/earth.jpg';
+import city from '~/assets/project/city.jpg';
+import map1 from '~/assets/project/map1.jpg';
+import map2 from '~/assets/project/map2.jpg';
+import model from '~/assets/project/model.jpg';
+
+let list = [
+	{
+		title: '3d作品集',
+		description: '3d作品集',
+		children: [
+			{
+				title: '3d地图',
+				img: earth,
+				description: '3d作品集',
+				link: '/project/3d'
+			},
+			{
+				title: '智慧城市',
+				img: city,
+				description: '3d作品集',
+				link: '/project/3d'
+			},
+			{
+				title: '3d汽车',
+				img: map2,
+				description: '3d作品集',
+				link: '/project/3d'
+			},
+			{
+				title: '3d展厅',
+				img: map1,
+				description: '3d作品集',
+				link: '/project/3d'
+			}
+		]
+	},
+	{
+		title: '前端作品集',
+		description: '前端作品集',
+		children: [
+			{
+				title: 'canvas作品',
+				img: model,
+				description: '前端作品集',
+				link: '/project/frontend'
+			},
+			{
+				title: '手机端',
+				img: model,
+				description: '前端作品集',
+				link: '/project/frontend'
+			}
+		]
+	},
+	{
+		title: '其他作品集',
+		description: '其他作品集',
+		children: [
+			{
+				title: 'GIS智慧大屏',
+				img: model,
+				description: '其他作品集',
+				link: '/project/other'
+			},
+			{
+				title: 'X6编辑器',
+				img: model,
+				description: '其他作品集',
+				link: '/project/other'
+			}
+			
+		]
+	}
+
+];
+---
+
+<MarkdownLayout title="作品案例" description="前端，3d作品集" currentNav="project" hide=[comments]>
+	{list.map((item) => (
+		<div class="mb-10">
+			<h2>{item.title}</h2>
+			<div class="grid grid-cols-2 gap-4">
+				{item.children.map((child) => (
+					<div class="bg-white rounded-lg shadow-md">
+						<a href={child.link}>
+<img src={child.img.src} alt={child.title} class="w-full h-48 object-cover rounded-t-lg m-0" />	
+							<div class="p-4">
+								<h3 class="text-xl font-bold">{child.title}</h3>
+								<p>{child.description}</p>
+								<div class="mt-4">
+									<a href={child.link} class="text-blue-500 hover:underline">查看详情</a>
+								</div>
+							</div>
+						</a>
+					</div>
+				))}
+			</div>
+		</div>
+	))}
+
+
+
+</MarkdownLayout>

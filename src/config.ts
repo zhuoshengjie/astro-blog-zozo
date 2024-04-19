@@ -3,7 +3,7 @@ import type { PostHideElements } from '~/content/config';
 export const Site = 'https://astro-blog-zozo.pages.dev';
 export const SiteLanguage = 'zh';
 export const SiteTitle = '白日梦想家';
-export const SiteDescription = '路虽远，心向往之';
+export const SiteDescription = '路虽远，行则将至';
 export const FooterDescription = '';
 export const AdminName = 'Ladit';
 export const PageSize = 15;
